@@ -1,0 +1,17 @@
+function determinarEstacao(mes) {
+
+  if (mes < 1 || mes > 12) {
+    return "Mês inválido";
+  }
+
+  if (mes >= 3 && mes <= 5) {
+    return "Outono";
+  } else if (mes >= 6 && mes <= 8) {
+    return "Inverno";
+  } else if (mes >= 9 && mes <= 11) {
+    return "Primavera";
+  } else {
+    return "Verão";
+  }
+}
+
